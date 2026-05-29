@@ -7,18 +7,23 @@ export default function TabPest(){
 
 
             <Tabs.Screen
-                name='home'
-                options={{title:'Home'}}
+                name='explorar'
+                options={{title:'Explorar'}}
             />
 
             <Tabs.Screen
-                name='producto'
-                options={{title:'Productos'}}
+                name='mapa'
+                options={{title:'Mapa'}}
             />
 
             <Tabs.Screen
-                name='index'
-                options={{title:'Productos'}}
+                name='mi_plan'
+                options={{title:'Mi Plan'}}
+            />
+
+            <Tabs.Screen
+                name='perfil'
+                options={{title:'Perfil'}}
             />
 
         </Tabs>         
